@@ -16,7 +16,7 @@ users.roles.cache.forEach(r => {
 users.roles.remove(r.id)
 })
   let embed = new MessageEmbed()
-  message.channel.send(embed.setDescription(`${users} Adlı Kullanıcı Başarıyla Kayıtsız'a Atıldı.`).setTimestamp().setColor("RED").setFooter("botclub.net"))
+  message.channel.send(embed.setDescription(`${users} Adlı Kullanıcı Başarıyla Kayıtsız'a Atıldı.`).setTimestamp().setColor("RED").setFooter("By Created : AngaraLı"))
 }
 module.exports.conf = {
   enabled: true,
