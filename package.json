@@ -4,7 +4,7 @@
   "description": "V12 Gelişmiş Kayıt Botu CanJS",
   "main": "can.js",
   "scripts": {
-    "start": "node utku.js"
+    "start": "node can.js"
   },
   "dependencies": {
     "chalk": "^4.1.0",
