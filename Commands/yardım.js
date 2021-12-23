@@ -13,7 +13,7 @@ exports.run = async (client, message, args) => {
 • \`${prefix}stat @Üye\` Kayıt Bilgisini Gösterir.
 • \`${prefix}kayıtsız @Üye\` Kullanıcıyı Kayıtsıza Atar.`)
     .setTimestamp()
-    .setFooter(`botclub.net`)
+    .setFooter(`By Created : AngaraLı`)
     .setColor(Settings.Colors.Magenta)
 
   message.channel.send(embed)
