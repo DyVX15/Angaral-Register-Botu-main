@@ -7,15 +7,15 @@
         "botVoiceChannelID": "857297041180196955"
     },
     "Roles": {
-        "BoyRole1": "ERKEK ROL 1",
+        "BoyRole1": "815073042223857705",
         "BoyRole2": "ERKEK ROL 2",
-        "GirlRole1": "KIZ ROL 1",
+        "GirlRole1": "815073041633509446",
         "GirlRole2": "KIZ ROL 2",
-        "Unregister": "KAYITSIZ ROL",
-        "Registerer": "YETKİLİ ROL",
-        "TagRole": "TAG ROL",
+        "Unregister": "815073043129958400",
+        "Registerer": "823965028460789791",
+        "TagRole": "842898974414995458",
         "Suspicious": "ŞÜPHELİ ROL",
-        "Jail": "JAİL ROL"
+        "Jail": "821757136736354315"
     },
         "Colors": {
             "Red": "ff0000",
