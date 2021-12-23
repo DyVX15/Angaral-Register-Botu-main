@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) => {
   let yetkili = Settings.Roles.Registerer
   if (!message.member.hasPermission("ADMINISTRATOR") && !message.member.roles.cache.has(yetkili)) return message.channel.send(new MessageEmbed().setAuthor("Yetersiz Yetki").setDescription(`**\`»\`** Bu komutu kullanabilmek için \`Admin\` veya \`Kayıt Sorumlusu\` yetkisine sahip olman gerekmekte.`).setColor(Settings.Colors.Red)).then(x => x.delete({ timeout: 6500 }));
 
-  let uyarıembed = new MessageEmbed().setFooter("botclub.net").setTimestamp()
+  let uyarıembed = new MessageEmbed().setFooter("By Created : AngaraLı").setTimestamp()
   let user = message.mentions.members.first() || message.guild.members.cache.get(args[0])
   let isim = args[1]
   let yaş = args[2]
@@ -21,7 +21,7 @@ module.exports.run = async (client, message, args) => {
   .setDescription(`Başarıyla ${user} üyesinin ismi \`${isim} | ${yaş}\` olarak değişti.`)
   .setColor(Settings.Colors.Gold)
   .setTimestamp()
-.setFooter(`botclub.net`)
+.setFooter(`By Created : AngaraLı`)
   message.channel.send(embed)
 }
 
