@@ -1,28 +1,35 @@
 {
-  "name": "V12-Kayıt-CanJS",
-  "version": "1.2.7",
-  "description": "V12 Gelişmiş Kayıt Botu CanJS",
-  "main": "can.js",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "v12 ke",
+  "main": "server.js",
   "scripts": {
-    "start": "node can.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
-    "discord.js": "^12.5.1",
+    "chalk": "^4.0.0",
+    "dabi-images": "^2.7.5",
+    "discord.js": "^12.2.0",
     "express": "^4.17.1",
-    "jimp": "^0.16.1",
-    "moment": "^2.29.1",
-    "moment-duration-format": "^2.3.2",
-    "quick.db": "^7.1.3",
-    "snekfetch": "^4.0.4"
+    "gamedig": "^2.0.23",
+    "jimp": "^0.12.1",
+    "moment": "^2.26.0",
+    "node-superfetch": "^0.1.11",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.1",
+    "snekfetch": "^4.0.4",
+    "superagent": "^6.1.0"
   },
   "engines": {
     "node": "12.x"
   },
   "license": "MIT",
   "keywords": [
-    "V12 Bot",
-    "CanJS",
-    "Register Bot"
+    "node",
+    "nod",
+    "no"
   ]
 }
