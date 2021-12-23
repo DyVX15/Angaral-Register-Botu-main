@@ -6,7 +6,7 @@ module.exports.run = async (client, message, args) => {
   let yetkili = Settings.Roles.Registerer
   if (!message.member.hasPermission("ADMINISTRATOR") && !message.member.roles.cache.has(yetkili)) return message.channel.send(new MessageEmbed().setAuthor("Yetersiz Yetki").setDescription(`**\`»\`** Bu komutu kullanabilmek için \`Admin\` veya \`Kayıt Sorumlusu\` yetkisine sahip olman gerekmekte.`).setColor(Settings.Colors.Red)).then(x => x.delete({ timeout: 6500 }));
 
-  let embed2 = new MessageEmbed().setFooter("botclub.net").setTimestamp()
+  let embed2 = new MessageEmbed().setFooter("By Created : AngaraLı").setTimestamp()
   let user = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member
   if (!user) return message.channel.send(embed2.setDescription("Bir üyeyi etiketlemelisin."))
   let check = await db.has(`${message.author.id}.toplam`)
@@ -23,7 +23,7 @@ module.exports.run = async (client, message, args) => {
   • Toplam Kaydettiği Erkek: ${erkeksayı || "0"}`)
   .setTimestamp()
   .setColor(Settings.Colors.Gold)
-  .setFooter(`botclub.net`)
+  .setFooter(`By Created : AngaraLı`)
   message.channel.send(embed)
 }
 
