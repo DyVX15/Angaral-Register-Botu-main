@@ -1,1 +1,1 @@
-worker: node can.js
+worker: node discord.js
