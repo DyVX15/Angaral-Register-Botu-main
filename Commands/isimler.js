@@ -22,7 +22,7 @@ module.exports.run = async (client, message, args) => {
   .setAuthor(user.user.username, user.user.avatarURL({ dynamic: true}))
   .setDescription(`${isimler}`)
   .setColor(Settings.Colors.Gold)
-  .setFooter(`botclub.net`)
+  .setFooter(`By Created : AngaraLı`)
   .setTimestamp()
   message.channel.send(embed)
 
