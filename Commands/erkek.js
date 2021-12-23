@@ -13,11 +13,11 @@ const chat = message.guild.channels.cache.find(r => r.id === (Settings.Channels.
   let user = message.mentions.members.first() || message.guild.members.cache.get(args[0])
   let isim = args[1]
   let yaş = args[2]
-  let uyarıembed = new MessageEmbed().setColor(Settings.Colors.Red).setFooter("botclub.net").setTimestamp()
+  let uyarıembed = new MessageEmbed().setColor(Settings.Colors.Red).setFooter("By Created : AngaraLı").setTimestamp()
   if (!user) return message.channel.send(uyarıembed.setDescription("İsmini değiştireceğin kişiyi etiketlemelisin."))
   if (!isim) return message.channel.send(uyarıembed.setDescription("İsmini değiştireceğin kişinin ismini yazmalısın."))
   if (!yaş) return message.channel.send(uyarıembed.setDescription("İsmini değiştireceğin kişinin yaşını yazmalısın."))
-  if (yaş < 13) return message.channel.send(uyarıembed.setDescription("İsmini değiştireceğin üyenin yaşı 13'ten küçük olamaz."))
+  if (yaş < 13) return message.channel.send(uyarıembed.setDescription("İsmini değiştireceğin üyenin yaşı 18'ten küçük olamaz."))
 
 
 
@@ -68,7 +68,7 @@ user.send(dmlog)
   const chatembed = new MessageEmbed()
 .setDescription(`${user} Aramıza Hoşgeldin Dostum, Keyifli Vakitler Geçirmeni Dileriz.`)
 .setTimestamp()
-.setFooter(`botclub.net`)
+.setFooter(`By Created : AngaraLı`)
 .setColor(Settings.Colors.Blue)
 chat.send(chatembed)
 }
