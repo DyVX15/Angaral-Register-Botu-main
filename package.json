@@ -1,8 +1,8 @@
 {
-  "name": "V12-Kayıt-UtkuJS",
+  "name": "V12-Kayıt-CanJS",
   "version": "1.2.7",
-  "description": "V12 Gelişmiş Kayıt Botu UtkuJS",
-  "main": "utku.js",
+  "description": "V12 Gelişmiş Kayıt Botu CanJS",
+  "main": "can.js",
   "scripts": {
     "start": "node utku.js"
   },
