@@ -1,10 +1,10 @@
 {
     "BotSettings": {
         "token": "NjQ3ODU0MTE0NDIzODMyNTk2.XdlvKQ.OCJEwvzbrlxPX1nRoIBQANKL8Rc",
-        "owner": "SAHİP ID",
-        "prefix": "PREFİX",
-        "botStatus": "botclub.net",
-        "botVoiceChannelID": "BOTUN SESE GİRCEĞİ KANAL ID"
+        "owner": "647854114423832596",
+        "prefix": "!",
+        "botStatus": "AngaraLı ❤️ SOHBET YUVASI",
+        "botVoiceChannelID": "857297041180196955"
     },
     "Roles": {
         "BoyRole1": "ERKEK ROL 1",
@@ -27,19 +27,19 @@
             "Yellow": "ffff00"
     },
         "ServerSettings": {
-            "ServerName": "SUNUCU ADI",
-            "ServerID": "SERVER ID",
-            "Tag": "TAG",
-            "UnTag": "UNTAG"
+            "ServerName": "SOHBET YUVASI FAMİLY",
+            "ServerID": "815069050614448138",
+            "Tag": "༄ ° Ⓢ Ⓨ•",
+            "UnTag": "༄ ° Ⓢ Ⓨ•"
     },
         "Channels": {
-            "RegisterChat": "KAYIT CHAT",
-            "TagLog": "TAG LOG",
-            "Rules": "KURALLAR CHAT",
-            "GeneralChat": "GENEL CHAT"
+            "RegisterChat": "815073088722567188",
+            "TagLog": "870773091368853586",
+            "Rules": "815073091821895711",
+            "GeneralChat": "815073104005955632"
         },
         "Welcome": {
-            "WelcomeChat": "HOŞGELDİN CHAT",
-            "WelcomeName": "• İsim | Yaş"
+            "WelcomeChat": "815073088722567188",
+            "WelcomeName": "• İsim |"
         }
 }
